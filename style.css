@@ -1,0 +1,48 @@
+#images
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+#recherche
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#haut_de_page
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Gmail, .Images, .App, .Connexion
+{
+  border-right: 20px white solid
+}
+
+#Bas_de_page1
+{
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 12px;
+  display:flex;
+}
+
+#Bas_de_page2
+{
+  display: flex;
+  padding: 12px
+}
+
+footer
+{
+  background:#ccc;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top:2px;
+  height:85px;
+}
